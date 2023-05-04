@@ -1,0 +1,174 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  border: none;
+  text-decoration: none;
+}
+
+.main {
+  display: flex;
+  padding: 28px;
+  background-color: whitesmoke;
+}
+
+.logo {
+  display: flex;
+  margin-right: auto;
+
+}
+
+.social>a {
+  padding: 0px;
+  margin-top: 5px;
+  text-align: left;
+}
+
+.links {
+  display: flex;
+  width: 45%;
+  justify-content: space-around;
+  color: black;
+}
+
+.links>a {
+  color: black;
+  font-weight: bold;
+}
+
+.links>a:hover {
+  color: #bcbc20;
+}
+
+.logo>a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+.logo>a:hover {
+  color: #bcbc20;
+}
+
+.one {
+  background: url("download.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  justify-content: space-around;
+}
+
+button {
+  color: black;
+  font-weight: bold;
+  padding: 20px;
+  background-color: #c2f773;
+  box-shadow: 10px 5px 5px blue;
+  margin-bottom: 10px;
+  border-radius: 5px;
+
+}
+
+.skb {
+  width: 40%;
+}
+
+.one>a:hover {
+  cursor: pointer;
+  background-color: yellowgreen;
+}
+
+.two {
+  padding: 2rem;
+  text-align: center;
+  color: black;
+  background-color: whitesmoke;
+  margin: 2rem;
+  width: 100%;
+}
+
+.three {
+  display: flex;
+  background-color: whitesmoke;
+}
+
+.about {
+  width: 50%;
+  margin-right: auto;
+  justify-content: center;
+  text-align: justify;
+
+}
+
+hr {
+  color: blue;
+}
+
+.four {
+  text-align: center;
+}
+
+.four>label {
+  text-align: left;
+
+
+
+}
+
+#form {
+  width: 40%;
+  text-align: left;
+  margin: 5rem auto 0 auto;
+  justify-content: space-around;
+  border: 2px solid red;
+  box-shadow: rgba(100, 100, 111, .2) 0 7px 29px 0;
+  display: block;
+  border-radius: 5px;
+  background: #fff;
+}
+
+#submit {
+  float: right;
+  margin: 0px 2rem 2px 0px;
+  width: 20%;
+  cursor: pointer;
+  padding-bottom: 2px;
+  font-weight: bold;
+  background-color: #f2d51c;
+
+}
+
+.foot {
+  display: flex;
+  margin: 3rem auto 0px auto;
+  background-color: #fd7272;
+
+
+}
+
+#slogo>a {
+  margin-right: 2rem;
+}
+
+.fcontent {
+  margin-right: auto;
+  margin-left: 3rem;
+}
+
+.copy {
+  padding-top: 20px;
+  background-color: #fd7272;
+  text-align: center;
+}
+
+.fsocial {
+  width: 30%;
+}
+
+input,
+textarea {
+  background-color: whitesmoke;
+  width: 100%;
+  padding: 5px;
+  border-radius: 5px;
+}
